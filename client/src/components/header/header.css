@@ -1,0 +1,26 @@
+.header
+{margin-top: 60px;
+    z-index: -1;
+position: relative;}
+.headerTitles{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    font-family:'Prompt',serif;
+} 
+.headertitlesm{
+    position:absolute;
+    top:30%;
+    font-size: 20px;
+}
+.headertitlelg{
+    position:absolute;
+    top:35%;
+    font-size:100px;
+} 
+.headerimg{
+    width: 100%;
+    height:450px;
+    object-fit: cover;
+    margin-top: 80px;
+}

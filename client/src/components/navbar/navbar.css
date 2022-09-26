@@ -1,0 +1,64 @@
+.top
+{
+    background-color: white;
+    color:black;
+    width:100%;
+    height: 60px;
+    position:sticky;
+    top:0;
+    align-items: center;
+    font-family: 'Concert One', cursive;
+    display: flex;
+}
+.topCenter{
+    flex:3;
+}
+.topLeft 
+{
+    flex:1;
+}
+.topRight{
+    flex:1;
+    text-align: end;
+} 
+.profileimg
+{   background-size: cover;
+    border-radius: 50%;
+    cursor: pointer;
+    width: 60px;
+    height: 60px;
+}
+.topList{
+    margin:0;
+    padding:0;
+    display: flex;
+    justify-content: center;
+    list-style:none;
+}
+.liele{
+    margin-right:5%;
+}
+.liel{
+    color: black;
+    text-decoration: none;
+    font-weight: 300;
+    font-size: x-large;
+
+}
+.topLeft i{
+    font-size:20px;
+    padding:0px 5%;
+}
+.linkspc{
+    margin-right: 20px;
+}
+
+.logoutbtn{
+    color:blue;
+
+} 
+.liel:hover{
+color: gold;
+background-color: black;
+border-radius: 5px;
+}

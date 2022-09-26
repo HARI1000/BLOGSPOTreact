@@ -1,0 +1,37 @@
+.register{
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background:url("https://images.pexels.com/photos/1629236/pexels-photo-1629236.jpeg?cs=srgb&dl=pexels-suzy-hazelwood-1629236.jpg&fm=jpg");
+    background-size: cover;
+    color:white;
+}
+.registertitle{
+    font-size: 50px;
+}
+.registerfrom
+{display:flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20px;
+}
+.registerfrom label{
+    margin-top: 20px;
+}   
+.registerinput{
+    padding:10px; 
+    border:none;
+}
+.registerbutton{
+   margin-top:20px;
+   border:none;
+   background-color: aquamarine; 
+} 
+.registerloginbutton{
+    margin-top:20px;
+    border:none;
+    background-color: gold; 
+
+}

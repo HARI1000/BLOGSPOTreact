@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.Parallax {
+  display: flex;
+  justify-content: center;
+}
+.Parallax__background, .Parallax__background-triangles {
+  width: 1080px;
+  height: 1280px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+}
+.Parallax__background {
+  background-image: url("background.png");
+}
+.Parallax__background-triangles {
+  background-image: url("background-triangles.png");
+}
+.Parallax__content {
+  width: 1080px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 1;
+  margin-top: 100px;
+}
+.Parallax__content__heading, .Parallax__content__cta {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+.Parallax__content__heading {
+  background-color: #fff;
+  width: 40%;
+  padding: 40px;
+}
+.Parallax__content__heading__text {
+  margin: 10px 0;
+  font-size: 60px;
+}
+.Parallax__content__heading__caption {
+  margin: 0;
+  font-size: 20px;
+}
+.Parallax__content__cta {
+  background-color: #ff737e;
+  width: 60%;
+  padding: 40px;
+  font-size: 20px;
+  color: #fff;
+  margin-top: 120px;
+}

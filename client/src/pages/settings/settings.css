@@ -1,0 +1,66 @@
+.settings
+{display: flex;}
+.settingswrapper {
+    flex: 9;
+}
+.settingsimg{
+    width:200px;
+    height:200px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin: 0px 30px;
+}
+.settingstitle{    
+    display: flex;
+    align-items: center;  
+    justify-content: space-between;
+} 
+.settingsupdatetitle {
+font-size:30px;
+margin-bottom:20px;
+color:black;
+text-decoration:underline;
+}
+.settingsdeletetitle
+{
+    font-size:15px;
+    color: red;
+}
+.settingsform{
+    display: flex;
+    flex-direction: column;
+}
+.settingspp{
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.settingppicn{
+width: 25px;
+height: 25px;
+margin-left: 20px;
+}
+.settingsform label{
+font-size: x-large;
+margin: 10px 30px;
+}
+.settingsform input{
+    border:none;
+    border-bottom: 1px solid #ccc;
+    padding: 5px;
+    margin: 10px 30px;
+
+} 
+.settingsupdate{
+    align-self: center;
+    cursor: pointer;
+    margin-top: 10px;
+    background-color: aqua;
+    border: none;
+    color:white; 
+    width:10vw;
+    height: 5vh;
+    border-radius: 15px;
+    font-size: 20px;
+}
